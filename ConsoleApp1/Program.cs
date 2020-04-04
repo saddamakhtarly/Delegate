@@ -22,7 +22,7 @@ namespace ConsoleApp1
         public delegate void CallBack(int i);
         public void LongRunning(CallBack nobj)
         {
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 5; i++)
             {
                 nobj(i);
             }
