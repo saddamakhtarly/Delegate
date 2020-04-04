@@ -20,11 +20,11 @@ namespace ConsoleApp1
     public class MyClass
     {
         public delegate void CallBack(int i);
-        public void LongRunning(CallBack obj)
+        public void LongRunning(CallBack nobj)
         {
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 3 i++)
             {
-                obj(i);
+                nobj(i);
             }
         }
     }
